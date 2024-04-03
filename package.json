@@ -1,0 +1,38 @@
+{
+  "name": "jrx-ts-firebase-client",
+  "version": "0.0.1",
+  "type": "module",
+  "module": "./dist/index.es.js",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerryrox/jrx-ts-firebase-client.git"
+  },
+  "author": "Jerryrox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerryrox/jrx-ts-firebase-client/issues"
+  },
+  "homepage": "https://github.com/jerryrox/jrx-ts-firebase-client#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --coverage",
+    "upload": "yarn build && npm publish"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.4.0",
+    "jrx-ts": "^0.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.1",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "firebase": "^10.10.0"
+  }
+}
