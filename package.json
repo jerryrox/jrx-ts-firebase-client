@@ -1,12 +1,19 @@
 {
   "name": "jrx-ts-firebase-client",
-  "version": "0.0.1",
-  "type": "module",
+  "version": "0.0.2",
+  "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
-  "types": "./dist/main.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jerryrox/jrx-ts-firebase-client.git"
@@ -26,13 +33,16 @@
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",
-    "jrx-ts": "^0.2.0",
+    "firebase": "^10.10.0",
+    "jrx-ts": "^0.2.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.8.1",
+    "vite-plugin-externalize-deps": "^0.8.0",
     "vitest": "^1.4.0"
   },
-  "dependencies": {
-    "firebase": "^10.10.0"
+  "peerDependencies": {
+    "firebase": "^10.10.0",
+    "jrx-ts": "^0.2.2"
   }
 }
