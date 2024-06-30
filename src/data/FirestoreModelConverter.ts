@@ -9,7 +9,7 @@ export default abstract class FirestoreModelConverter<T extends Object> extends 
      * Returns undefined if the snapshot does not exist.
      */
     fromSnapshot(snapshot: DocumentSnapshot): T | undefined {
-        if (!snapshot.exists) {
+        if (!snapshot.exists()) {
             return undefined;
         }
         return this.toModel(snapshot.id, snapshot.data());

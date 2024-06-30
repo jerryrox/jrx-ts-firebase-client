@@ -34,7 +34,7 @@
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",
     "firebase": "^10.10.0",
-    "jrx-ts": "^0.2.2",
+    "jrx-ts": "^1.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.8.1",
@@ -43,6 +43,6 @@
   },
   "peerDependencies": {
     "firebase": "^10.10.0",
-    "jrx-ts": "^0.2.2"
+    "jrx-ts": "^1.0.0"
   }
 }

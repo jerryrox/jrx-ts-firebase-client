@@ -1421,10 +1421,10 @@ jju@~1.4.0:
   resolved "https://registry.yarnpkg.com/jju/-/jju-1.4.0.tgz#a3abe2718af241a2b2904f84a625970f389ae32a"
   integrity sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==
 
-jrx-ts@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/jrx-ts/-/jrx-ts-0.2.2.tgz#84b38e0e135749256e9699852f1c64abf70eac97"
-  integrity sha512-PC4jEs+Mn4XdYJWQjODDAj0VdHp0tMU99O8OCpIlXBpWuGVJdyzqL2OPOdaFZxJuDa26YhH0RirxiLU4CRaeig==
+jrx-ts@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/jrx-ts/-/jrx-ts-1.0.0.tgz#0ca2c2bde93055fadff903d20809103b569603b8"
+  integrity sha512-P2x8CDWeRRK32+Mdm0HtUIv+lgwd8Q6XwKQ1Yjvegagl5QjDFSOl5odsM7/gXXSypRRoJeRsiT9EtE40n9Ow3A==
 
 js-tokens@^9.0.0:
   version "9.0.0"
